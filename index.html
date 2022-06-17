@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registration Form</title>
+</head>
+<body>
+  <div id="container">
+    <div id="content-1" class="column">
+      <h1>Learn to code by watching others</h1>
+      <p>see how experienced developers solve problems in real-time. <br> Watching scripted tutorial is great, but understanding how developers think is invaluable.</p>
+    </div>
+    <div id="content-2" class="column">
+      <p class="shadow" id="form-header"><span>Try it free 7days</span> then $20/mo. thereafter</p>
+
+      <main id="registration-page" class="shadow">
+        <form action="" class="contact-form">
+          <input type="text" id="fname" name="firstname" placeholder="First Name">
+          <P class="error-message">First Name cannot be empty</P>
+      
+          <input type="text" id="lname" name="lastname" placeholder="Last Name">
+          <P class="error-message">Last Name cannot be empty</P>
+
+          <input type="email" id="email" name="email" placeholder="Email Address">
+          <P class="error-message">Looks like this is not an email</P>
+    
+          <input type="password" id="password" name="password" placeholder="Password">
+          <P class="error-message">Password Name cannot be empty</P>
+
+          <button type="button" class="btn shadow" onclick="validate()">CLAIM YOUR FREE TRIAL</button>
+          <p class="small-text">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a> </p>
+        </form>
+      </main>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
